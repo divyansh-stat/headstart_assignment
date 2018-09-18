@@ -1,0 +1,29 @@
+Android Connection Problems,0,0,0,0,0,0,0,0
+In the Central & Controller API: 64-bit ints used in JSON,3,0,0,0,0,0,0,0
+Dev,0,0,0,0,0,0,0,0
+Documentation on API page incorrect,0,0,0,0,0,0,0,0
+Display IPv6 addresses using condensed notation,9,0,0,0,0,0,0,0
+GUI client 1.2.12 not working on windows 7 after rebooot.,0,0,0,0,0,0,0,0
+ZeroTier One Client issue on Windows 10 1809 (Build 17758.1),0,0,0,0,0,0,0,0
+Controller - Can sometimes give out duplicate v4 auto-assign addresses,0,0,0,0,0,0,0,0
+Windows: UI doesn't update without restart,3,3,3,0,0,0,0,0
+Disable binding random ports,5,0,0,0,0,0,0,0
+Enable environment to override default home path,4,0,0,0,0,0,0,0
+Some devices get randomly denied,2,0,0,0,0,0,0,0
+[Request] Fedora packaging for armv7hl,0,0,0,0,0,0,0,0
+Upgrade to 1.2.12 sometimes fails to restart service,0,0,0,0,0,0,0,0
+Add functionality to erase members from networks using file backend i…,1,0,0,0,0,0,0,0
+[question] Controller REST API and HTTP status return codes,0,0,0,0,0,0,0,0
+[Clarification] ZeroTier's handover mechanism,0,0,0,0,0,0,0,0
+TCP as first class P2P transport,3,1,1,0,0,0,0,0
+Dropped and delayed packets while another network transfer is taking place,4,0,0,0,0,0,0,0
+How to Install ZeroTierOne on a mipsle32 system,0,0,0,0,0,0,0,0
+Security questions,3,1,1,0,0,0,0,0
+Protocol needs to be written up in RFC form,2,1,1,0,0,0,0,0
+Failing to assign IP to network interface,5,0,0,0,0,0,0,0
+Fedora official repository,2,0,0,0,0,0,0,0
+Add Linux route metrics,0,0,0,0,0,0,0,0
+ZeroTier Central managed routes with a leading zero octet aren't being reflected on the client,2,0,0,0,0,0,0,0
+iOS can't join over cellular network,2,0,0,0,0,0,0,0
+OSPF over ZeroTier,21,0,0,0,0,0,0,0
+Feature Request for Android: Edit DNS settings,0,1,1,0,0,0,0,0
