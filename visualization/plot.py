@@ -1,33 +1,19 @@
-import json
-import os
 import csv
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.read_csv('/Users/div/Documents/GitHub/headstart_assignment/visualization/issues.csv', names=['title','number_of_comments','total_reactions','thumbs_up','thumbs_down','confused','heart','hooray','laugh'])
 
-json_file = open("/Users/div/Documents/GitHub/headstart_assignment/cleaned_issues_list.json")
-json_data = json.load(json_file)
- 
-total_count = []
-plus_1 = []
-minus_1 = []
-confused = []
-heart = []
-hooray = []
-laugh = []
-title = []
-comments = []
+sum_of_reactions = df.sum(axis=0)
+sum_of_reactions = sum_of_reactions.iloc[3:]
 
-for i in xrange(1,len(json_data)):
-	total_count.append(json_data[i]['reactions']['total_count'])
-	plus_1.append(json_data[i]['reactions']['+1'])
-	minus_1.append(json_data[i]['reactions']['-1'])
-	confused.append(json_data[i]['reactions']['confused'])
-	heart.append(json_data[i]['reactions']['heart'])
-	hooray.append(json_data[i]['reactions']['hooray'])
-	laugh.append(json_data[i]['reactions']['laugh'])
-	title.append(json_data[i]['title'])
-	comments.append(json_data[i]['comments'])
+print type(sum_of_reactions)
+plt.plot(sum_of_reactions)
+plt.ylabel('Count of reactions')
+plt.xlabel('Different types of reactions')
+plt.title('Frequency of different of emoji reactions')
+plt.show()
 
 
-data = list(zip(title,comments,total_count,plus_1,minus_1,confused,heart,hooray,laugh))
 
-np.savetxt("/Users/div/Documents/GitHub/headstart_assignment/visualization/issues.csv", data, delimiter=",", fmt='%s')
+
