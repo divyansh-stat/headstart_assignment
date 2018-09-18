@@ -31,3 +31,18 @@ This script has two plot scripts - First one plots the frequency of each emoji r
 ### Notes
 
 Due to very less experience with API, could not fetch public issues. Instead picked a random Repo and fetch 30 issues sorted by latest comment. The resultant set had very few reactions and thus plotting 3 and 4 visualisations from the task didn't make sense. 
+
+Overall, the task was very challenging as it focused more on software skills than data science/statistical knowledge. Can do better with more experience with APIs. 
+
+### Speed
+
+Total time taken was 7 hours. First two hours were spent on setting up laptop from scratch, installing brew, python and other packages. 
+Due to very less experience with API, spent another 2 hours reading and testing different functions from the GitHub API. Struggled for 1 hour with the authentication and trying to write a python script. Next 1 hour was spent in writing the fetch function and the last 1 hour was spent in processing the json output and plotting the results.
+
+### How to run
+
+1. After extracting the whole package, change the credentials to own github profile's in the oauth.sh file. 
+2. Run oauth.sh file in the terminal (which should create a txt file of token)
+3. Run fetch.py from the command line (this should print the first 5 issues of the repo selected)
+4. Run create_csv_of_json_issues.py
+5. Run /visualisation/plot.py 
