@@ -1,0 +1,8 @@
+README.md
+fetch.py
+FetchIssues.egg-info/PKG-INFO
+FetchIssues.egg-info/SOURCES.txt
+FetchIssues.egg-info/dependency_links.txt
+FetchIssues.egg-info/entry_points.txt
+FetchIssues.egg-info/requires.txt
+FetchIssues.egg-info/top_level.txt

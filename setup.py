@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-	name='HelloWorld',
+	name='FetchIssues',
 	version='1.0',
-	py_modules=['hello'],
+	py_modules=['fetch'],
 	install_requires=[
 	'Click',
 	],
 	entry_points='''
 		[console_scripts]
-		hello=hello:cli
+		fetch=fetch:cli
 		''',
 )
